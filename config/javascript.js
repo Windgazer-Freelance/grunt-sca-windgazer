@@ -1,13 +1,15 @@
-module.exports = {
-    "tasks": {
-        "eslint": {
-            "options": {
-                "format": "stylish",
+module.exports = function() {
+    return {
+        "tasks": {
+            "eslint": {
+                "options": {
+                    "format": "stylish",
+                },
+                "all": [
+                    "*.js",
+                    "!node_modules/**/*",
+                ],
             },
-            "all": [
-                "*.js",
-                "!node_modules/**/*",
-            ],
         },
-    },
+    };
 };

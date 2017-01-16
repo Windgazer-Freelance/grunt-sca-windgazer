@@ -2,7 +2,7 @@
   "name": "grunt-sca-windgazer",
   "version": "1.0.0",
   "description": "Pluggable grunt config for Static Code Analysis for Wingazer projects.",
-  "main": "javascript.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,11 +26,9 @@
     "load-grunt-configs": "^1.0.0",
     "load-grunt-tasks": "^3.5.2"
   },
-  "peerDependencies": {
-    "load-grunt-configs": "^1.0.0"
-  },
   "dependencies": {
     "eslint-config-windgazer": "github:windgazer-freelance/eslint-config-windgazer",
-    "grunt-eslint": "^19.0.0"
+    "grunt-eslint": "^19.0.0",
+    "lodash": "^4.17.4"
   }
 }
