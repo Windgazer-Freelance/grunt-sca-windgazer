@@ -7,6 +7,7 @@ module.exports = function() {
                 },
                 "all": [
                     "*.js",
+                    "**/*.js",
                     "!node_modules/**/*",
                 ],
             },
